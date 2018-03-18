@@ -1,10 +1,9 @@
-# Overview of Projects
-
 ## Projects
 
 ### Samdroid
 
 Android sample code to perform various operations.
+
 
 ## Open Source Projects
 
@@ -15,6 +14,7 @@ Have a wish for application or website? send us your request and we will find it
 #### Contributing
 
 To help with the development ping me at dhanrajacharya44@gmail.com
+
 
 ## License
 
