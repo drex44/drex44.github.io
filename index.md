@@ -9,6 +9,10 @@ layout: home
 title: Personal Projects
 ---
 
+### [Blog : Wine of bits](http://www.wineofbits.com/)
+Perceptions of a software Engineer into daily life - Personal, Financial and Technical Posts
+
+
 ### [Samdroid](https://github.com/drex44/samdroid)
 Android application sample code for various services such as login with Google, facebook etc.
 
