@@ -40,7 +40,7 @@ minima:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
 exclude:
   - Gemfile
   - Gemfile.lock
