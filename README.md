@@ -1,20 +1,6 @@
-## Projects
+## User website
 
-### Samdroid
-
-Android sample code to perform various operations.
-
-
-## Open Source Projects
-
-### Make me an App/Website
-
-Have a wish for application or website? send us your request and we will find it or make it for you provided that it is feasible.
-
-#### Contributing
-
-To help with the development ping me at dhanrajacharya44@gmail.com
-
+User website to list all resources
 
 ## License
 
