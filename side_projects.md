@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Open Source Projects
-permalink: /open-source-projects/
+permalink: /side-projects/
 ---
 
 ### Make me an APP - In progress...
