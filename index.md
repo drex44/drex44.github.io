@@ -14,3 +14,6 @@ Hello, I am Dhanraj Acharya.
 This site includes personal projects(open source) and side projects(may or may not be open sourced).
 
 You can find the source code for projects at [Github](https://github.com/drex44)
+
+#### [Blog : Wine of bits](http://www.wineofbits.com/)
+Perceptions of a software Engineer into daily life - Personal, Financial and Technical Posts
