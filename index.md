@@ -8,7 +8,7 @@
 layout: home
 ---
 
-Personal Projects
+# Personal Projects
 
 ### [Samdroid](https://github.com/drex44/samdroid)
 Android application sample code for various services such as login with Google, facebook etc.
