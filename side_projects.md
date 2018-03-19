@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Open Source Projects
+title: Side Projects
 permalink: /side-projects/
 ---
 
