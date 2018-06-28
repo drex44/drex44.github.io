@@ -18,7 +18,6 @@ Below is the list of projects I have started in my free time. some of them are o
 
 > [Blog : Wine of bits](https://medium.com/wineofbits)
 ----
-----
 `creativity` `writing`
 
 Perceptions of a software Engineer into daily life - Personal, Financial and Technical Posts.
