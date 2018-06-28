@@ -14,8 +14,11 @@ Hello, I am Dhanraj Acharya.
 Below is the list of projects I have started in my free time. some of them are ongoing or finished. other than this, in the past I have worked with nodejs, AWS, and python.
 
 ## Projects
+----
 
-#### [Blog : Wine of bits](https://medium.com/wineofbits)
+> [Blog : Wine of bits](https://medium.com/wineofbits)
+----
+----
 `creativity` `writing`
 
 Perceptions of a software Engineer into daily life - Personal, Financial and Technical Posts.
