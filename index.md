@@ -18,7 +18,6 @@ Below is the list of projects I have started in my free time. some of them are o
 
 
 [Blog : Wine of bits](https://medium.com/wineofbits)
-----
 `creativity` `writing`
 
 Perceptions of a software Engineer into daily life - Personal, Financial and Technical Posts.
@@ -34,15 +33,13 @@ Solution for Cracking the coding interview domain in HackerRank
 All files contain link to the problem and they have been uploaded and accepted as 100% in evaluation.
 
 
-#### [Samdroid](https://github.com/drex44/samdroid) - ongoing...
-
+[Samdroid](https://github.com/drex44/samdroid) - ongoing...
 `Android` `Java`
 
 Android application sample code for various services such as login with Google, facebook etc.
 
 
-#### [Make me an APP](https://www.linkedin.com/in/dhanraj-acharya) - ongoing...
-
+[Make me an APP](https://www.linkedin.com/in/dhanraj-acharya) - ongoing...
 Drop me a request on LinkedIn for an app/website and we will find it or build it, provided that it feasible. 
 It is only for open source organizations and NGOs. not for commercial softwares.
 
