@@ -13,6 +13,8 @@ Hello, I am Dhanraj Acharya.
 
 Below is the list of projects I have started in my free time. some of them are ongoing or finished. other than this, in the past I have worked with nodejs, AWS, and python.
 
+## Projects
+
 #### [Blog : Wine of bits](https://medium.com/wineofbits)
 `creativity` `writing`
 
@@ -41,7 +43,7 @@ Android application sample code for various services such as login with Google, 
 Drop me a request on LinkedIn for an app/website and we will find it or build it, provided that it feasible. 
 It is only for open source organizations and NGOs. not for commercial softwares.
 
-#### TrackList - ongoing...
+### TrackList - ongoing...
 `React` `Go` `MongoDB` `ElasticSearch`
 
 Website to show checklists for general purpose or person tasks. General purpose checklists can be published on the website and other users can add it to their own collection. user can track all of his/her checklists via his/her dashboard. all features will be shown on the live website.
