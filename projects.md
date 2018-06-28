@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Personal Projects
-permalink: /personal-projects/
+title: Projects
+permalink: /projects/
 ---
 
 #### [HackerRank-Cracking-The-Coding-Interview](https://github.com/drex44/HackerRank-Cracking-The-Coding-Interview)
@@ -13,3 +13,8 @@ All files contain link to the problem and they have been uploaded and accepted a
 
 #### [Samdroid](https://github.com/drex44/samdroid) - In progress...
 Android application sample code for various services such as login with Google, facebook etc.
+
+
+#### [Make me an APP](https://wp.me/P9DluL-2W) - In progress...
+
+Drop us  request for app/website and we will find it or build it provided that it feasible.
