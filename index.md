@@ -15,5 +15,5 @@ This site includes personal projects(open source) and side projects(may or may n
 
 You can find the source code for projects at [Github](https://github.com/drex44)
 
-#### [Blog : Wine of bits](https://www.wineofbits.com/)
+#### [Blog : Wine of bits](https://medium.com/wineofbits)
 Perceptions of a software Engineer into daily life - Personal, Financial and Technical Posts
