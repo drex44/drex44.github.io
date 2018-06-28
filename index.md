@@ -16,6 +16,7 @@ Below is the list of projects I have started in my free time. some of them are o
 ## Projects
 ----
 
+
 [Blog : Wine of bits](https://medium.com/wineofbits)
 ----
 `creativity` `writing`
@@ -24,7 +25,7 @@ Perceptions of a software Engineer into daily life - Personal, Financial and Tec
 I am moving from the wordpress to Medium. After some time the [old site](https://www.wineofbits.com/) will be removed.
 
 
-#### [HackerRank-Cracking-The-Coding-Interview](https://github.com/drex44/HackerRank-Cracking-The-Coding-Interview)
+[HackerRank-Cracking-The-Coding-Interview](https://github.com/drex44/HackerRank-Cracking-The-Coding-Interview)
 `Java`
 
 Solution for Cracking the coding interview domain in HackerRank
