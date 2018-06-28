@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about-me/
+permalink: /about
 ---
 
 I like to try new things, learn new technologies and love to solve difficult problems.
