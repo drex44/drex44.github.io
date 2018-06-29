@@ -16,7 +16,7 @@ Below is the list of projects I have started in my free time. some of them are o
 ## Projects
 
 
-[Blog : Wine of bits](https://medium.com/wineofbits) `creativity` `writing`
+[Blog : Wine of bits](https://medium.com/wineofbits) `Creative writing`
 
 * Perceptions of a software Engineer into daily life - Personal, Financial and Technical Posts.
 I am moving from the wordpress to Medium. After some time the [old site](https://www.wineofbits.com/) will be removed.
