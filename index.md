@@ -51,6 +51,7 @@ It is only for open source organizations and NGOs. not for commercial softwares.
   * ~~Integrate crisp live chat for feedback~~
   * ~~Integrate State management library : Redux~~
   * ~~Add google analytics~~
+  * Ui improvements
   * Create public TrackLists
   * Alpha version live preview for feedback
 
