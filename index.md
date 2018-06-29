@@ -6,7 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-#title: About
+
 ---
 
 Hello, I am Dhanraj Acharya. 
@@ -41,3 +41,27 @@ It is only for open source organizations and NGOs. not for commercial softwares.
 [TrackList](https://tracklist-alpha-react.herokuapp.com) `React` `Go` `MongoDB` - ongoing...
 
 * Website to show checklists for general purpose or person tasks. General purpose checklists can be published on the website and other users can add it to their own collection. user can track all of his/her checklists via his/her dashboard. all features will be shown on the live website.
+
+* Tasks
+  * ~~React and Go environment setup~~
+  * ~~Basic react ui for CRUD operations~~
+  * ~~Basic Go CRUD API with mongoDB~~
+  * ~~Basic search bar ui and backedn with in-built mongoDB text search~~
+  * ~~About us, Privacy policy, Desclaimer policy, and terms of usage pages~~
+  * ~~Integrate crisp live chat for feedback~~
+  * ~~Integrate State management library : Redux~~
+  * ~~Add google analytics~~
+  * Create public TrackLists
+  * Alpha version live preview for feedback
+
+Uptill now, It may look like a blog with steps only.
+
+* Tasks
+  * ElasticSearch as search engine
+  * Ui improvements
+  * Filters for search
+  * User accounts and private, and public lists
+  * Docker deployment scrips
+  * Beta version launch
+  * Native Apps 
+  * ProductHunt and HackerNews launch
