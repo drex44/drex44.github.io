@@ -29,7 +29,7 @@ I am moving from the wordpress to Medium. After some time the [old site](https:/
 All files contain link to the problem and they have been uploaded and accepted as 100% in evaluation.
 
 
-[Samdroid](https://github.com/drex44/samdroid) `Android` `Java` - ongoing...
+[Samdroid](https://github.com/drex44/samdroid) `Android` `Java`
 
 * Android application sample code for various services such as login with Google, facebook etc.
 
@@ -38,6 +38,6 @@ All files contain link to the problem and they have been uploaded and accepted a
 * Drop me a request on LinkedIn for an app/website and we will find it or build it, provided that it feasible. 
 It is only for open source organizations and NGOs. not for commercial softwares.
 
-[TrackList]() `React` `Go` `MongoDB` `ElasticSearch` - ongoing...
+[TrackList](https://tracklist-alpha-react.herokuapp.com) `React` `Go` `MongoDB` `ElasticSearch` - ongoing...
 
 * Website to show checklists for general purpose or person tasks. General purpose checklists can be published on the website and other users can add it to their own collection. user can track all of his/her checklists via his/her dashboard. all features will be shown on the live website.
