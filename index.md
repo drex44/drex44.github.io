@@ -42,6 +42,10 @@ It is only for open source organizations and NGOs. not for commercial softwares.
 
 * Website to show checklists for general purpose or person tasks. General purpose checklists can be published on the website and other users can add it to their own collection. user can track all of his/her checklists via his/her dashboard. all features will be shown on the live website.
 
+* Source-code
+  * [go-backend](https://github.com/drex44/tracklist-go-backend)
+  * [react-frontend](https://github.com/drex44/tracklist-react-frontend)
+
 * Tasks
   * ~~React and Go environment setup~~
   * ~~Basic react ui for CRUD operations~~
