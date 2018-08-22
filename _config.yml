@@ -2,11 +2,11 @@ title: drex44.github.io
 author: Dhanraj Acharya
 email: dhanrajacharya44@gmail.com
 description: > # this means to ignore newlines until "twitter_username:"
-  Portfolio of Dhanraj Acharya.
+  Hello, My Name is Dhanraj Acharya (Developer, Dreamer and Entrepreneur). Here one can find all of my github projects.
 
 # social links
 twitter_username: acharya_dhanraj
-github_username:  drex44
+github_username: drex44
 # rss: rss
 # dribbble_username: jekyll
 # facebook_username: drex44
@@ -25,7 +25,6 @@ google_analytics: UA-74434504-2
 #   instance: example.com
 # - username: jekyll2
 #   instance: example.com
-
 
 show_excerpts: false # set to true to show excerpts on the homepage
 

@@ -1,6 +1,6 @@
-## User website
+## Portfolio website ![version-1.1.0](https://img.shields.io/badge/version-1.1.0-green.svg)
 
-User website to list all resources
+Portfolio website to list all resources
 
 ## License
 
