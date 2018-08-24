@@ -24,12 +24,12 @@ You can find all the projects under [project section](/all-projects).
 <a href="https://tracklist-alpha.herokuapp.com" target="_new">TrackList</a> `React` `Redux` `React-router` `Semantic-ui` `Axios` `Go` `Echo` `MongoDB` - ongoing...
 {: #tracklist }
 
-- Website to show checklists for general purpose or person tasks. General purpose checklists can be published on the website and other users can add it to their own collection. User can track all of his/her checklists via his/her dashboard. All features will be shown on the live website.
+- Website to show checklists for general purpose or personal tasks. General purpose checklists can be published on the website and other users can add it to their own collection. Users can track all of his/her checklists via his/her dashboard. All features will be shown on the live website.
 
 - Source code
 
-  - <a href="https://drex44.github.io/tracklist-react-frontend" target="_new">React Frontend</a>
-  - <a href="https://drex44.github.io/tracklist-go-backend" target="_new">Go Backend</a>
+  - <a href="https://drex44.github.io/TrackList-react-frontend" target="_new">React Frontend</a>
+  - <a href="https://drex44.github.io/TrackList-go-backend" target="_new">Go Backend</a>
 
 <br />
 - Tasks ![version-0.1.x](https://img.shields.io/badge/version-0.1.x-green.svg)
