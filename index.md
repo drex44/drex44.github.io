@@ -21,7 +21,7 @@ You can find all the projects under [project section](/all-projects).
 
 ## Current Project
 
-<a href="https://tracklist-alpha.surge.sh" target="_new">TrackList</a> `React` `Redux` `React-router` `Semantic-ui` `Axios` `Go` `Echo` `MongoDB` - ongoing...
+<a href="http://tracklist-alpha.surge.sh" target="_new">TrackList</a> `React` `Redux` `React-router` `Semantic-ui` `Axios` `Go` `Echo` `MongoDB` - ongoing...
 {: #tracklist }
 
 - Website to show checklists for general purpose or personal tasks. General purpose checklists can be published on the website and other users can add it to their own collection. Users can track all of his/her checklists via his/her dashboard. All features will be shown on the live website.

@@ -20,7 +20,7 @@ Project Name | Front-end | Back-end | Database | Other
 
 <br />
 
-<a href="https://tracklist-alpha.surge.sh" target="_new">TrackList</a> `React` `Redux` `React-router` `Semantic-ui` `Axios` `Go` `Echo` `MongoDB` - ![status:ongoing](https://img.shields.io/badge/status-ongoing-green.svg)
+<a href="http://tracklist-alpha.surge.sh" target="_new">TrackList</a> `React` `Redux` `React-router` `Semantic-ui` `Axios` `Go` `Echo` `MongoDB` - ![status:ongoing](https://img.shields.io/badge/status-ongoing-green.svg)
 {: #tracklist }
 
 - Website to show checklists for general purpose or personal tasks. General purpose checklists can be published on the website and other users can add it to their own collection. Users can track all of his/her checklists via his/her dashboard. All features will be shown on the live website.
