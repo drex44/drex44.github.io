@@ -1,13 +1,14 @@
 <header class="site-header" role="banner">
 
+<div class="bird-main-container">
+
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%} 
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign page_paths = site.header_pages | default: default_paths-%} {%- if page_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-      <h1>{{ site.title | escape }}</h1>
+      <h1> {{ site.title | escape }} </h1>
     </a>
 
-    {%- if page_paths -%}
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">
@@ -31,4 +32,23 @@
     </nav>
     {%- endif -%}
   </div>
+
+    <div class="bird-container bird-container--one">
+      <div class="bird bird--one"></div>
+    </div>
+
+    <div class="bird-container bird-container--two">
+      <div class="bird bird--two"></div>
+    </div>
+
+    <div class="bird-container bird-container--three">
+      <div class="bird bird--three"></div>
+    </div>
+
+    <div class="bird-container bird-container--four">
+      <div class="bird bird--four"></div>
+    </div>
+  </div>
+  
+
 </header>
