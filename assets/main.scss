@@ -3,37 +3,17 @@
 ---
 
 @import "minima";
-@import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300");
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
-h1 {
-  font-family: "Arima Madurai", cursive !important;
-  color: black;
-  font-size: 2rem;
-  @include media-query(800){ 
-    font-size: 4rem;
-  }
-  
-  letter-spacing: -3px;
-  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
-  position: relative;
-  z-index: 3;
-}
-
 .bird-main-container {
   z-index: 1;
   position: relative;
-  overflow: hidden;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center; // min-height: 100vh;
-  // min-height: 6rem;
-  @include media-query(900){
+  overflow: hidden; // display: flex;
+  // align-items: center; // justify-content: center; // min-height: 100vh; // min-height: 6rem;
+  @include media-query(900) {
     min-height: 35rem;
   }
   background-image: linear-gradient(
@@ -47,11 +27,9 @@ h1 {
   background-position: center center;
   padding: 2em;
 }
-
-.wrapper{
+.wrapper {
   z-index: 1;
 }
-
 .bird {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells.svg);
   background-size: auto 100%;
@@ -78,7 +56,6 @@ h1 {
     animation-delay: -0.5s;
   }
 }
-
 .bird-container {
   z-index: 0;
   position: absolute;
@@ -137,7 +114,6 @@ h1 {
     transform: translateY(0vh) translateX(110vw) scale(0.6);
   }
 }
-
 @keyframes fly-right-two {
   0% {
     transform: translateY(-2vh) translateX(-10vw) scale(0.5);
@@ -162,5 +138,76 @@ h1 {
   }
   100% {
     transform: translateY(0vh) translateX(110vw) scale(0.45);
+  }
+}
+@import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300");
+$link-font-family: "Arima Madurai", cursive !important; // @import url('https://fonts.googleapis.com/css?family=Bitter:700'); // $link-font-family:'Bitter', serif; /* / H1 heading */
+h1 {
+  font-family: $link-font-family;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  @include media-query(800) {
+    font-size: 4rem;
+  }
+  letter-spacing: -3px;
+  position: relative;
+  z-index: 3;
+} /* / link style */
+.highlight {
+  z-index: 3;
+  font-family: $link-font-family;
+  font-weight: bold;
+  line-height: 1.4 !important;
+  padding: 10px 5px 2px 5px;
+  display: inline-block;
+  color: #343434 !important;
+  transition: color 250ms, text-shadow 250ms;
+  text-decoration: none !important; // text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+  background: none;
+  position: relative;
+  z-index: 0;
+  &::after {
+    position: absolute;
+    z-index: -1;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #343434;
+    transition: all 250ms;
+  }
+  &:hover {
+    color: white !important;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 1);
+    &::after {
+      height: 105%;
+      width: 105%;
+    }
+  }
+} /* / Links style 2 */
+@import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed"); // body { // font-family: 'Saira Extra Condensed', sans-serif; // letter-spacing: 1px; // -webkit-font-smoothing: antialiased; // -moz-osx-font-smoothing: grayscale; // } // header { // background-image: linear-gradient(to bottom,  rgba(0,0,0,0.75) -10%,rgba(0,0,0,0) 100%); // text-align: center; // padding: 0.5rem 0 5rem; // font-size: 1.25rem; // } // ul { // list-style: none; // margin: 0; // padding: 0; // } // li { // display: inline-flex; // }
+.highlight2 {
+  position: relative;
+  padding: 1rem 0 0.5rem; // margin: 0 1.5rem;
+  text-decoration: none !important;
+  color: black !important;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    transform: translateX(-50%) scaleX(0.2);
+    width: 100%;
+    height: 3px;
+    color: black !important;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: transform 250ms;
+  }
+  &:hover {
+    &::after {
+      transform: translateX(-50%) scaleX(1);
+    }
   }
 }
