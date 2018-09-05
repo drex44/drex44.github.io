@@ -11,12 +11,12 @@
   @include media-query(900) {
     min-height: 35rem;
   }
-  background-image: linear-gradient(
+  background-image: url("https://images.unsplash.com/photo-1446824505046-e43605ffb17f"),
+    linear-gradient(
       to bottom,
-      rgba(255, 168, 76, 0.6) 0%,
-      rgba(255, 123, 13, 0.6) 100%
-    ),
-    url("https://images.unsplash.com/photo-1446824505046-e43605ffb17f");
+      rgba(255, 168, 76, 0.6) -10%,
+      rgba(255, 123, 13, 0) 100%
+    );
   background-blend-mode: soft-light;
   background-size: cover;
   background-position: center center;
@@ -181,4 +181,4 @@ h1 {
       width: 105%;
     }
   }
-} // @import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed"); // body { // font-family: "Saira Extra Condensed", sans-serif; // letter-spacing: 1px; // -webkit-font-smoothing: antialiased; // -moz-osx-font-smoothing: grayscale; // } // header { // background-image: linear-gradient( // to bottom, // rgba(0, 0, 0, 0.75) -10%, // rgba(0, 0, 0, 0) 100% // ); // text-align: center; // padding: 0.5rem 0 5rem; // font-size: 1.25rem; // } // ul { // list-style: none; // margin: 0; // padding: 0; // } // li { // display: inline-flex; // }
+}
