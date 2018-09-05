@@ -3,11 +3,6 @@
 ---
 
 @import "minima";
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 .bird-main-container {
   z-index: 1;
   position: relative;
@@ -186,28 +181,4 @@ h1 {
       width: 105%;
     }
   }
-} /* / Links style 2 */
-@import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed"); // body { // font-family: 'Saira Extra Condensed', sans-serif; // letter-spacing: 1px; // -webkit-font-smoothing: antialiased; // -moz-osx-font-smoothing: grayscale; // } // header { // background-image: linear-gradient(to bottom,  rgba(0,0,0,0.75) -10%,rgba(0,0,0,0) 100%); // text-align: center; // padding: 0.5rem 0 5rem; // font-size: 1.25rem; // } // ul { // list-style: none; // margin: 0; // padding: 0; // } // li { // display: inline-flex; // }
-.highlight2 {
-  position: relative;
-  padding: 1rem 0 0.5rem; // margin: 0 1.5rem;
-  text-decoration: none !important;
-  color: black !important;
-  &::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: 5px;
-    transform: translateX(-50%) scaleX(0.2);
-    width: 100%;
-    height: 3px;
-    color: black !important;
-    background-color: rgba(0, 0, 0, 0.8);
-    transition: transform 250ms;
-  }
-  &:hover {
-    &::after {
-      transform: translateX(-50%) scaleX(1);
-    }
-  }
-}
+} // @import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed"); // body { // font-family: "Saira Extra Condensed", sans-serif; // letter-spacing: 1px; // -webkit-font-smoothing: antialiased; // -moz-osx-font-smoothing: grayscale; // } // header { // background-image: linear-gradient( // to bottom, // rgba(0, 0, 0, 0.75) -10%, // rgba(0, 0, 0, 0) 100% // ); // text-align: center; // padding: 0.5rem 0 5rem; // font-size: 1.25rem; // } // ul { // list-style: none; // margin: 0; // padding: 0; // } // li { // display: inline-flex; // }

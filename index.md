@@ -10,7 +10,7 @@ layout: home
 
 Hello, My Name is Dhanraj Acharya (Developer, Dreamer and Entrepreneur).
 
-You can find all the projects under [project section](/all-projects).
+You can find all the projects under, [Project section](/all-projects).
 
 ## Blog
 
