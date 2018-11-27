@@ -4,15 +4,18 @@ import { NavigationLink, HeaderLink } from "../components/Links";
 
 export default props => {
   return (
-    <Flex px={7} pt={4} color="white" bg="black" alignItems="center">
+    <Flex px={[3, 7]} pt={[1, 4]} color="white" alignItems="center">
       <HeaderLink href="/">Dhanraj Acharya</HeaderLink>
       <Box mx="auto" />
-      <Box mt={3}>
+      <Flex mt={3}>
         <NavigationLink href="#projects">Projects</NavigationLink>
-        <NavigationLink href="/resume/Dhanraj Acharya Resume.pdf" new download>
+        <NavigationLink
+          href="https://drive.google.com/open?id=1d6SE-SDEFnVettyqsDDZ4uQfBqbgweN1"
+          new
+        >
           Resume
         </NavigationLink>
-      </Box>
+      </Flex>
     </Flex>
   );
 };

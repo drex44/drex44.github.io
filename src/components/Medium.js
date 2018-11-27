@@ -1,7 +1,9 @@
 import React from "react";
-import { Text } from "rebass";
+import { Text, Flex } from "rebass";
 import { CardLink } from "./Links";
 import CommonCard from "./CommonCard";
+import { makePairs } from "./commons";
+import { itemsPerRow } from "./Theme";
 
 class MediumArticles extends React.Component {
   state = { posts: [] };
@@ -24,6 +26,12 @@ class MediumArticles extends React.Component {
       });
   }
   render() {
+    let articles = this.state.posts.map((article, index) => (
+      <Article key={index} article={article} />
+    ));
+
+    let columns = itemsPerRow(this.props.windowWidth);
+
     return (
       <div>
         {this.state.posts.length > 0 ? (
@@ -31,8 +39,9 @@ class MediumArticles extends React.Component {
             Recent articles,
           </Text>
         ) : null}
-        {this.state.posts.map(article => (
-          <Article article={article} />
+
+        {makePairs(columns, articles).map(Row => (
+          <Flex m={3}>{Row}</Flex>
         ))}
       </div>
     );

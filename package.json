@@ -8,7 +8,9 @@
     "react-dom": "16.7.0-alpha.0",
     "react-particles-js": "^2.4.2",
     "react-scripts": "2.1.1",
+    "react-sizeme": "^2.5.2",
     "react-spring": "^6.1.9",
+    "react-window-size": "^1.2.2",
     "rebass": "^3.0.0-11",
     "styled-components": "^4.1.1"
   },
@@ -17,7 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "react-scripts build && cd build && now"
+    "deploy": "react-scripts build && cd build && now",
+    "production": "cd build && now alias dhanraj.now.sh"
   },
   "eslintConfig": {
     "extends": "react-app"

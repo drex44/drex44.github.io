@@ -7,51 +7,38 @@ import MediumArticles from "../components/Medium";
 export default props => {
   return (
     <Section>
-      <Text id="blog">
+      <Text id="blog" fontSize={[1, 2, 3]} mb={3}>
         <HeaderLink color="green" href="#blog" id="blog">
           Blog
         </HeaderLink>
       </Text>
-      <Text mt={3} mb={1}>
-        Top Writter in technology on{" "}
+      <Text mb={1} fontSize={[1, 2, 3]}>
+        Writer on{" "}
         <OutsideLink
           hoverColor="#008000"
           href="https://medium.com/@dhanraj_acharya"
         >
           Medium
-        </OutsideLink>
+        </OutsideLink>.
       </Text>
-      <Text mb={1}>
+      <Text mb={1} fontSize={[1, 2, 3]}>
         Editor of{" "}
         <OutsideLink hoverColor="#008000" href="https://medium.com/wineofbits">
           Wine of bits
         </OutsideLink>
+        .
       </Text>
-      <Text mb={1}>
-        Writer on{" "}
+      <Text mb={1} fontSize={[1, 2, 3]}>
+        One of the Top 50 Writer in technology on{" "}
         <OutsideLink
           hoverColor="#008000"
-          href="https://medium.freecodecamp.org/@dhanraj_acharya"
+          href="https://medium.com/@dhanraj_acharya"
         >
-          FreeCodeCamp
-        </OutsideLink>
-        ,{" "}
-        <OutsideLink
-          hoverColor="#008000"
-          href="https://hackernoon.com/@dhanraj_acharya"
-        >
-          HackerNoon
-        </OutsideLink>
-        , and{" "}
-        <OutsideLink
-          hoverColor="#008000"
-          href="https://medium.com/swlh/@dhanraj_acharya"
-        >
-          The Startup
+          Medium
         </OutsideLink>{" "}
-        publications.
+        in October, 2018.
       </Text>
-      <Text mb={3}>
+      <Text mb={3} fontSize={[1, 2, 3]}>
         * I have removed the{" "}
         <OutsideLink hoverColor="#008000" href="#">
           http://www.wineofbits.com

@@ -23,6 +23,10 @@ const theme = {
   }
 };
 
+export const itemsPerRow = width => {
+  return width < 450 ? 1 : 3;
+};
+
 const Theme = props => (
   <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
 );

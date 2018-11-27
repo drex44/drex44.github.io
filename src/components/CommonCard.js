@@ -4,9 +4,9 @@ import { AnimatedCard } from "./commons";
 
 const CommonCard = props => {
   return (
-    <Box width={1 / 3}>
+    <Box width={[1, 1 / 3]}>
       <AnimatedCard>
-        <Card p={2} m={3} bg="black" color="white">
+        <Card p={[1, 2]} m={[1, 3]} bg="black" color="white">
           {props.children}
         </Card>
       </AnimatedCard>

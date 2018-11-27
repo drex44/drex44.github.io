@@ -292,11 +292,11 @@ class App extends Component {
                 <Values />
                 <Blog />
                 <Projects projects={projects} />
-                <Text textAlign="center" fontSize={3} my={6}>
+                <Text textAlign="center" my={[6, 6]}>
                   <HeaderLink
                     color="grey"
-                    href="/resume/Dhanraj Acharya Resume.pdf"
-                    download
+                    href="https://drive.google.com/open?id=1d6SE-SDEFnVettyqsDDZ4uQfBqbgweN1"
+                    new
                   >
                     Download Resume
                   </HeaderLink>

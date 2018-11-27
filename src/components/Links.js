@@ -14,7 +14,8 @@ export const NavigationLink = props => {
       }}
     >
       <Link
-        mx={3}
+        mx={[1, 3]}
+        fontSize={[1, 2]}
         href={props.href}
         target={props.new ? "_new" : ""}
         download={props.download ? true : false}

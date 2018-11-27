@@ -4,9 +4,10 @@ import { HeaderLink } from "../components/Links";
 import { Section } from "../components/commons";
 
 const desc = {
-  fontSize: 3
+  fontSize: [1, 2, 3]
 };
 const title = {
+  fontSize: [1, 2, 3],
   color: "#008000"
 };
 
@@ -24,7 +25,9 @@ export default props => {
         <HeaderLink color="green" id="values" href="#values">
           Values
         </HeaderLink>
-        <Text my={3}>My top 5 personal beliefs/ values,</Text>
+        <Text my={3} fontSize={[1, 2, 3]}>
+          My top 5 personal beliefs/ values,
+        </Text>
         <Flex textAlign="center" my={4}>
           <Box width={1 / 2}>
             <Value

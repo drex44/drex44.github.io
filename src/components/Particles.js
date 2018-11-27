@@ -7,15 +7,15 @@ const particlesConfig = {
     number: {
       value: 100,
       density: {
-        enable: false,
-        value_area: 600
+        enable: true,
+        value_area: 1000
       }
     },
     color: {
       value: "#ffffff"
     },
     shape: {
-      type: "circle",
+      type: "triangle",
       stroke: {
         width: 0,
         color: "#000000"

@@ -22,7 +22,7 @@ const Project = props => {
           {item.title}
         </CardLink>
 
-        <Box mt={4} mx={2} fontSize={1} color={"gray"}>
+        <Box mt={4} mx={2} fontSize={1} color={"white"}>
           {item.desc.map(list => (
             <Text textAlign="justify" mt={2}>
               {list}

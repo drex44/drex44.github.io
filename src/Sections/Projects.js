@@ -3,11 +3,15 @@ import { Flex, Text } from "rebass";
 import { HeaderLink } from "../components/Links";
 import { Section, makePairs } from "../components/commons";
 import Project from "../components/Project";
+import windowSize from "react-window-size";
+import { itemsPerRow } from "../components/Theme";
 
-export default props => {
+const Projects = props => {
   let projects = props.projects.map((project, index) => (
     <Project key={index} item={project} />
   ));
+
+  let columns = itemsPerRow(props.windowWidth);
 
   return (
     <Section>
@@ -17,9 +21,11 @@ export default props => {
         </HeaderLink>
       </Text>
 
-      {makePairs(3, projects).map(Row => (
+      {makePairs(columns, projects).map(Row => (
         <Flex m={3}>{Row}</Flex>
       ))}
     </Section>
   );
 };
+
+export default windowSize(Projects);
