@@ -19,14 +19,12 @@ export default props => {
           href="https://medium.com/@dhanraj_acharya"
         >
           Medium
-        </OutsideLink>.
-      </Text>
-      <Text mb={1} fontSize={[1, 2, 3]}>
-        Editor of{" "}
+        </OutsideLink>{" "}
+        and the editor of{" "}
         <OutsideLink hoverColor="#008000" href="https://medium.com/wineofbits">
           Wine of bits
-        </OutsideLink>
-        .
+        </OutsideLink>{" "}
+        publication.
       </Text>
       <Text mb={1} fontSize={[1, 2, 3]}>
         One of the Top 50 Writer in technology on{" "}

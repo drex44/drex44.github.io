@@ -54,7 +54,7 @@ export default props => {
           <Value
             title="Follow a System"
             desc="Many times chasing the outcome doesn’t work but a system followed persistently
-            always wins"
+            always wins."
           />
         </Box>
       </Text>

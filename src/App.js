@@ -17,15 +17,27 @@ class App extends Component {
       {
         link: "https://github.com/drex44/QR-Scanner#qr-scanner",
         title: "QR Scanner React Native App",
-        tags: ["react-native", "expo"],
+        tags: ["React-Native", "Expo"],
         desc: [
-          "A React Native QR code scanner app built using Expo.",
+          "A React Native QR code scanner app, built using Expo.",
           <b>Features</b>,
           "Scans the QR code with the device camera.",
           "Stores the scanned QR code locally in SQLite.",
-          "User can check the previously scanned QR codes at any time by clicking on the History Icon."
+          "A user can check the previously scanned QR codes at any time by checking the History screen."
         ],
         references: [
+          <OutsideLink
+            hoverColor="#ff0000"
+            href="https://github.com/drex44/QR-Scanner#application-preview"
+          >
+            Preview
+          </OutsideLink>,
+          <OutsideLink
+            hoverColor="#ff0000"
+            href="https://expo.io/@drex44/qr-scanner"
+          >
+            Live Preview
+          </OutsideLink>,
           <OutsideLink
             hoverColor="#ff0000"
             href="https://github.com/drex44/QR-Scanner"
@@ -44,14 +56,26 @@ class App extends Component {
         link:
           "https://github.com/drex44/good-food-guide#good-food-guide-tadatadasmile",
         title: "Good Food Guide",
-        tags: ["reactjs", "nextjs", "nodejs"],
+        tags: ["ReactJS", "NextJS", "NodeJS"],
         desc: [
-          "A guide to know which foods are good when you have certain disease! I have started the project for newcomers to learn React/NextJS by creating a productive website. I am the maintainer of the repo."
+          <Text>
+            A guide to know which foods are good when you have a certain
+            disease! I am the maintainer of the repository and we have had a
+            total of 25{" "}
+            <OutsideLink
+              hoverColor="#ff0000"
+              href="https://good-food-guide.netlify.com/contributors"
+            >
+              contributors
+            </OutsideLink>
+            . The goal of the repository is to serve as a ground for newcomers
+            to learn ReactJS/NextJS by creating a productive website.
+          </Text>
         ],
         references: [
           <OutsideLink
             hoverColor="#ff0000"
-            href="https://good-food-guide.now.sh"
+            href="https://good-food-guide.netlify.com"
           >
             Live website
           </OutsideLink>,
@@ -66,10 +90,10 @@ class App extends Component {
       {
         link: "https://github.com/drex44/awesome-react-links",
         title: "Awesome React Links",
-        tags: ["react", "sass", "npm"],
+        tags: ["ReactJS", "SASS", "NPM"],
         desc: [
-          "An NPM Package: A collection of animated links/ anchor tags. This can be used on any clickable element.",
-          "All the links on this website are it's example."
+          "An NPM Package: A collection of fully customizable animated links/ anchor tags. It can be used on any clickable elements.",
+          "All the links on this website are created using this package."
         ],
         references: [
           <OutsideLink
@@ -95,18 +119,27 @@ class App extends Component {
       {
         link: "https://github.com/drex44/bulletin#bulletin",
         title: "Bulletin",
-        tags: ["react", "nextjs", "prismic.io"],
+        tags: ["ReactJS", "NextJS", "Prismic.io"],
         desc: [
           <Text>
-            Simple website to showcase the use of Prismic.io and NextJs to
-            develop dynamic website for business persons. All the content is
-            coming from Prismic.io CMS. the article is available on{" "}
+            Simple website to showcase the use of{" "}
+            <OutsideLink hoverColor="#ff0000" href="https://prismic.io/">
+              <b>Prismic.io CMS</b>
+            </OutsideLink>{" "}
+            and NextJS to develop dynamic website for business persons.
+          </Text>,
+          <Text>
+            All the content is coming from the prismic.io CMS and a business
+            person can use it's admin panel to easily control the content. I
+            have written an article on how we can leverage the features of both
+            tools. it is available on{" "}
             <OutsideLink
               hoverColor="#ff0000"
               href="https://medium.com/wineofbits/host-your-dynamic-website-without-spending-a-penny-d1ba91501a62"
             >
               <b>Medium</b>
             </OutsideLink>
+            .
           </Text>
         ],
         references: [
@@ -128,17 +161,20 @@ class App extends Component {
         link: "https://tracklist-alpha.surge.sh",
         title: "TrackList",
         tags: [
-          "React",
+          "ReactJS",
           "Redux",
-          "React-router",
-          "Semantic-ui",
+          "React-Router",
+          "Semantic-UI",
           "Axios",
           "Go",
           "Echo",
           "MongoDB"
         ],
         desc: [
-          "My first project in ReactJS. A Website to show checklists for general purpose or personal tasks. General purpose checklists can be published on the website and other users can add it to their own collection. Users can track all of his/her checklists via his/her dashboard. All features will be shown on the live website."
+          "My first project in ReactJS. A Website to manage checklists for general purpose or personal tasks. General purpose checklists can be made public so that other users can track it/ add it to their own collection.",
+          "In simpler terms, Works similarly to a public/private git repository but for checklists instead of a repository.",
+          "I used ReactJS in the frontend and Golang in the backend.",
+          "* If you checkout the Demo then please Wait for some time on the website to get the public checklist loaded. Free heroku dynos sleeps if not utilized continuously."
         ],
         references: [
           <OutsideLink
@@ -166,8 +202,12 @@ class App extends Component {
         title: "Notification Bell",
         tags: ["Php", "Silex", "Webhook", "Ultrahook"],
         desc: [
-          "A quick experiment to show use case of webhooks using a LAMP stack (though we don’t need MongoDb).",
-          "It rings a bell sound whenever someone makes a payment on your site given you use stripe payment gateway or whenever someone makes a new commit to your project on github."
+          <Text>
+            A quick experiment to show use case of <b>webhooks</b> using a LAMP
+            stack (though we don’t need MongoDb).
+          </Text>,
+          "It rings a bell sound whenever the webhook is called.",
+          "For example, whenever someone makes a payment on your site or whenever someone makes a new commit to your project on github."
         ],
         references: [
           <OutsideLink
@@ -183,7 +223,7 @@ class App extends Component {
         link:
           "https://www.freecodecamp.org/certification/drex44/apis-and-microservices",
         title: "APIs and Microservices",
-        tags: ["HTML", "css", "Nodejs", "Expressjs", "MongoDB"],
+        tags: ["HTML", "CSS", "NodeJS", "ExpressJS", "MongoDB"],
         desc: [
           <Text>
             {" "}
@@ -196,34 +236,7 @@ class App extends Component {
             </OutsideLink>{" "}
             for APIs and Microservices.
           </Text>,
-          "All projects are also hosted on glitch.com so all can be checked live. links to glitch are given on respective project page and github. I created below projects,",
-          <Text>
-            <OutsideLink
-              hoverColor="#ff0000"
-              href="https://drex44.github.io/Timestamp-Microservice"
-            >
-              <b>Timestamp Microservice</b>
-            </OutsideLink>{" "}
-            Convert the milliseconds or date to UTC timestamp
-          </Text>,
-          <Text>
-            <OutsideLink
-              hoverColor="#ff0000"
-              href="https://drex44.github.io/Header-Parser-Microservice/"
-            >
-              <b>Header Parser Microservice</b>
-            </OutsideLink>{" "}
-            Check headers of the calling agent
-          </Text>,
-          <Text>
-            <OutsideLink
-              hoverColor="#ff0000"
-              href="https://drex44.github.io/File-Metadata-Microservice"
-            >
-              <b>File Metadata Microservice</b>
-            </OutsideLink>{" "}
-            Accept file and check its headers using multer library
-          </Text>,
+          "All projects are also hosted on glitch.com so each project can be checked live. Links to glitch are given on respective project page and github. During this, I created below projects,",
           <Text>
             <OutsideLink
               hoverColor="#ff0000"
@@ -231,8 +244,8 @@ class App extends Component {
             >
               <b>Exercise Tracker REST API</b>
             </OutsideLink>{" "}
-            REST services to create user, log its activity and get all
-            activities with filter
+            REST services to create a new user, log its activity and get all the
+            activities or some of the activities using filters.
           </Text>,
           <Text>
             <OutsideLink
@@ -241,8 +254,35 @@ class App extends Component {
             >
               <b>URL Shortener Microservice</b>
             </OutsideLink>{" "}
-            Return shorted URL which can be used to navigate to original url.
-            Just your usual url shortner.
+            Just your usual url shortner. Returns a shortened URL which can be
+            used to navigate to the original url.
+          </Text>,
+          <Text>
+            <OutsideLink
+              hoverColor="#ff0000"
+              href="https://drex44.github.io/Timestamp-Microservice"
+            >
+              <b>Timestamp Microservice</b>
+            </OutsideLink>{" "}
+            Convert the milliseconds or date to UTC timestamp.
+          </Text>,
+          <Text>
+            <OutsideLink
+              hoverColor="#ff0000"
+              href="https://drex44.github.io/File-Metadata-Microservice"
+            >
+              <b>File Metadata Microservice</b>
+            </OutsideLink>{" "}
+            Accept file and check its headers using multer library.
+          </Text>,
+          <Text>
+            <OutsideLink
+              hoverColor="#ff0000"
+              href="https://drex44.github.io/Header-Parser-Microservice/"
+            >
+              <b>Header Parser Microservice</b>
+            </OutsideLink>{" "}
+            Check headers of the calling agent.
           </Text>
         ],
         references: []
@@ -251,7 +291,7 @@ class App extends Component {
       {
         link: "https://drex44.github.io/Trusted-101s",
         title: "Trusted 101s",
-        tags: ["React", "Angular", "Docker", "Kubernetes"],
+        tags: ["ReactJS", "AngularJS", "Docker", "Kubernetes"],
         desc: [
           "A curated list of 101s verified by developers. nothing more.",
           "There are lots of tutorials and guides out there now but sometimes when you're just starting to learn a new technology, it is difficult to know which source is reliable. Many times, we follow off-topic tutorial resulting in wasting our time. So this is the list of articles, you can rely on confidently."
@@ -268,9 +308,9 @@ class App extends Component {
       {
         link: "https://drex44.github.io/til",
         title: "Today I Learned",
-        tags: ["react", "docker"],
+        tags: ["ReactJS", "Docker"],
         desc: [
-          "- A collection of concise write-ups on small things I learn day to day across a variety of languages and technologies. These are things that don't really warrant a full blog post."
+          "A collection of concise write-ups on small things I learn day to day across a variety of languages and technologies. These are things that don't really warrant a full blog post."
         ],
         references: [
           <OutsideLink hoverColor="#ff0000" href="https://drex44.github.io/til">

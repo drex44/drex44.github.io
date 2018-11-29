@@ -16,7 +16,7 @@ const Message = props => {
     </Text>,
     <Text fontSize={[1, 2, 3]} px={[1, 4]} mt={[4, 7]} textAlign="center">
       Other than this, I can be found on a random place enjoying the sun/ wind/
-      crowd/ quit/ traffic/ life!
+      crowd/ traffic/ life!
     </Text>
   ];
   let itemsPerRow = props.windowWidth < 450 ? 1 : 4;
