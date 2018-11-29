@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     let projects = [
       {
-        link: "https://github.com/drex44/QR-Scanner#qr-scanner",
+        link: "https://drex44.github.io/QR-Scanner/",
         title: "QR Scanner React Native App",
         tags: ["React-Native", "Expo"],
         desc: [
@@ -28,7 +28,7 @@ class App extends Component {
         references: [
           <OutsideLink
             hoverColor="#ff0000"
-            href="https://github.com/drex44/QR-Scanner#application-preview"
+            href="https://drex44.github.io/QR-Scanner/"
           >
             Preview
           </OutsideLink>,
