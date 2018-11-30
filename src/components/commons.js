@@ -80,16 +80,6 @@ export const Section = props => {
   );
 };
 
-export const List = props => {
-  return (
-    <ul>
-      {props.items.map(item => (
-        <li>{item}</li>
-      ))}
-    </ul>
-  );
-};
-
 export const makePairs = (size, items) => {
   let groups = [];
   let temp = [];

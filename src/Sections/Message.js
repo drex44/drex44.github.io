@@ -24,7 +24,7 @@ const Message = props => {
   return (
     <Section>
       {makePairs(itemsPerRow, messages).map(Row => (
-        <Flex justifyContent="center" pt={2}>
+        <Flex justifyContent="center" pt={2} height={1 / 2}>
           {Row}
         </Flex>
       ))}

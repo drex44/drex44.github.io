@@ -10,9 +10,12 @@ import Message from "./Sections/Message";
 import Navigation from "./Sections/Navigation";
 import Footer from "./Sections/Footer";
 import Projects from "./Sections/Projects";
+import HelmetHead from "./components/helmet";
 
 class App extends Component {
   render() {
+    const projectLink = { hoverColor: "#ff0000" };
+
     let projects = [
       {
         link: "https://drex44.github.io/QR-Scanner/",
@@ -27,25 +30,25 @@ class App extends Component {
         ],
         references: [
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://drex44.github.io/QR-Scanner/"
           >
             Preview
           </OutsideLink>,
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://expo.io/@drex44/qr-scanner"
           >
             Live Preview
           </OutsideLink>,
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://github.com/drex44/QR-Scanner"
           >
             Github
           </OutsideLink>,
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://hackernoon.com/react-native-for-beginners-fb3095968acf"
           >
             Medium
@@ -63,7 +66,7 @@ class App extends Component {
             disease! I am the maintainer of the repository and we have had a
             total of 25{" "}
             <OutsideLink
-              hoverColor="#ff0000"
+              {...projectLink}
               href="https://good-food-guide.netlify.com/contributors"
             >
               contributors
@@ -74,13 +77,13 @@ class App extends Component {
         ],
         references: [
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://good-food-guide.netlify.com"
           >
             Live website
           </OutsideLink>,
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://github.com/drex44/good-food-guide"
           >
             Github
@@ -97,19 +100,19 @@ class App extends Component {
         ],
         references: [
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://awesome-react-links.netlify.com"
           >
             Demo and Usage
           </OutsideLink>,
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://github.com/drex44/awesome-react-links"
           >
             Github
           </OutsideLink>,
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://www.npmjs.com/package/awesome-react-links"
           >
             NPM
@@ -123,7 +126,7 @@ class App extends Component {
         desc: [
           <Text>
             Simple website to showcase the use of{" "}
-            <OutsideLink hoverColor="#ff0000" href="https://prismic.io/">
+            <OutsideLink {...projectLink} href="https://prismic.io/">
               <b>Prismic.io CMS</b>
             </OutsideLink>{" "}
             and NextJS to develop dynamic website for business persons.
@@ -134,7 +137,7 @@ class App extends Component {
             have written an article on how we can leverage the features of both
             tools. it is available on{" "}
             <OutsideLink
-              hoverColor="#ff0000"
+              {...projectLink}
               href="https://medium.com/wineofbits/host-your-dynamic-website-without-spending-a-penny-d1ba91501a62"
             >
               <b>Medium</b>
@@ -144,13 +147,13 @@ class App extends Component {
         ],
         references: [
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://bulletin-tutorial.surge.sh"
           >
             Demo
           </OutsideLink>,
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://github.com/drex44/bulletin"
           >
             Github
@@ -177,20 +180,17 @@ class App extends Component {
           "* If you checkout the Demo then please Wait for some time on the website to get the public checklist loaded. Free heroku dynos sleeps if not utilized continuously."
         ],
         references: [
-          <OutsideLink
-            hoverColor="#ff0000"
-            href="https://tracklist-alpha.surge.sh"
-          >
+          <OutsideLink {...projectLink} href="https://tracklist-alpha.surge.sh">
             Demo
           </OutsideLink>,
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://drex44.github.io/TrackList-react-frontend"
           >
             React Code
           </OutsideLink>,
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://drex44.github.io/TrackList-go-backend"
           >
             Golang Code
@@ -211,7 +211,7 @@ class App extends Component {
         ],
         references: [
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://github.com/drex44/Notification-Bell"
           >
             Github
@@ -229,7 +229,7 @@ class App extends Component {
             {" "}
             The goal was to learn express.js and earn{" "}
             <OutsideLink
-              hoverColor="#ff0000"
+              {...projectLink}
               href="https://www.freecodecamp.org/certification/drex44/apis-and-microservices"
             >
               <b>freecodecamp certificate</b>
@@ -239,7 +239,7 @@ class App extends Component {
           "All projects are also hosted on glitch.com so each project can be checked live. Links to glitch are given on respective project page and github. During this, I created below projects,",
           <Text>
             <OutsideLink
-              hoverColor="#ff0000"
+              {...projectLink}
               href="https://drex44.github.io/Exercise-Tracker-REST-API"
             >
               <b>Exercise Tracker REST API</b>
@@ -249,7 +249,7 @@ class App extends Component {
           </Text>,
           <Text>
             <OutsideLink
-              hoverColor="#ff0000"
+              {...projectLink}
               href="https://drex44.github.io/URL-Shortener-Microservice"
             >
               <b>URL Shortener Microservice</b>
@@ -259,7 +259,7 @@ class App extends Component {
           </Text>,
           <Text>
             <OutsideLink
-              hoverColor="#ff0000"
+              {...projectLink}
               href="https://drex44.github.io/Timestamp-Microservice"
             >
               <b>Timestamp Microservice</b>
@@ -268,7 +268,7 @@ class App extends Component {
           </Text>,
           <Text>
             <OutsideLink
-              hoverColor="#ff0000"
+              {...projectLink}
               href="https://drex44.github.io/File-Metadata-Microservice"
             >
               <b>File Metadata Microservice</b>
@@ -277,7 +277,7 @@ class App extends Component {
           </Text>,
           <Text>
             <OutsideLink
-              hoverColor="#ff0000"
+              {...projectLink}
               href="https://drex44.github.io/Header-Parser-Microservice/"
             >
               <b>Header Parser Microservice</b>
@@ -298,7 +298,7 @@ class App extends Component {
         ],
         references: [
           <OutsideLink
-            hoverColor="#ff0000"
+            {...projectLink}
             href="https://drex44.github.io/Trusted-101s/"
           >
             Github
@@ -313,7 +313,7 @@ class App extends Component {
           "A collection of concise write-ups on small things I learn day to day across a variety of languages and technologies. These are things that don't really warrant a full blog post."
         ],
         references: [
-          <OutsideLink hoverColor="#ff0000" href="https://drex44.github.io/til">
+          <OutsideLink {...projectLink} href="https://drex44.github.io/til">
             Github
           </OutsideLink>
         ]
@@ -322,6 +322,7 @@ class App extends Component {
     return (
       <Theme>
         <Box className="App">
+          <HelmetHead crispId={"59674e9a-5024-498c-806c-ff38fc41243b"} />
           <Particles>
             <Box className="Content">
               <header>
