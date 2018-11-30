@@ -4,7 +4,7 @@ import { NavigationLink, HeaderLink } from "../components/Links";
 
 export default props => {
   return (
-    <Flex px={[3, 7]} pt={[1, 4]} color="white" alignItems="center">
+    <Flex px={[3, 5, 7]} pt={[1, 3, 4]} color="white" alignItems="center">
       <HeaderLink href="/">Dhanraj Acharya</HeaderLink>
       <Box mx="auto" />
       <Flex mt={3}>

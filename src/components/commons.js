@@ -73,7 +73,7 @@ export function AnimatedCard({ children }) {
 export const Section = props => {
   return (
     <section>
-      <Box py={[4, 5]} px={[3, 7]} color="white" {...props}>
+      <Box py={[4, 5, 6]} px={[4, 5, 7]} color="white" {...props}>
         {props.children}
       </Box>
     </section>

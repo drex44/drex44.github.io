@@ -5,26 +5,26 @@ import windowSize from "react-window-size";
 
 const Message = props => {
   let messages = [
-    <Text fontSize={[1, 2, 3]} px={[1, 4]} mt={[4, 6]} textAlign="center">
+    <Text fontSize={[1, 2, 3]} px={[1, 2, 4]} mt={[4, 4, 6]} textAlign="center">
       Hi! I am Dhanraj, a full stack developer and computer science graduate.
     </Text>,
-    <Text fontSize={[1, 2, 3]} px={[1, 4]} mt={[4, 7]} textAlign="center">
+    <Text fontSize={[1, 2, 3]} px={[1, 2, 4]} mt={[4, 4, 7]} textAlign="center">
       I love experimenting with new tools and tech.
     </Text>,
-    <Text fontSize={[1, 2, 3]} px={[1, 4]} mt={[4, 6]} textAlign="center">
+    <Text fontSize={[1, 2, 3]} px={[1, 2, 4]} mt={[4, 4, 6]} textAlign="center">
       If I’m not working then you can find me in theater/ playing TT.
     </Text>,
-    <Text fontSize={[1, 2, 3]} px={[1, 4]} mt={[4, 7]} textAlign="center">
+    <Text fontSize={[1, 2, 3]} px={[1, 2, 4]} mt={[4, 4, 7]} textAlign="center">
       Other than this, I can be found on a random place enjoying the sun/ wind/
       crowd/ traffic/ life!
     </Text>
   ];
-  let itemsPerRow = props.windowWidth < 450 ? 1 : 4;
+  let itemsPerRow = props.windowWidth < 800 ? 1 : 4;
 
   return (
     <Section>
-      {makePairs(itemsPerRow, messages).map(Row => (
-        <Flex justifyContent="center" pt={2} height={1 / 2}>
+      {makePairs(itemsPerRow, messages).map((Row, index) => (
+        <Flex key={index} justifyContent="center" pt={2}>
           {Row}
         </Flex>
       ))}

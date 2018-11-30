@@ -7,13 +7,17 @@ import CommonCard from "./CommonCard";
 const Project = props => {
   const item = props.item;
 
-  let references = item.references.map(list => (
-    <Text fontSize={1} mx={1} color={"gray"} textAlign="center">
+  let references = item.references.map((list, index) => (
+    <Text key={index} fontSize={1} mx={1} color={"gray"} textAlign="center">
       <b>{list}</b>
     </Text>
   ));
 
-  let tags = item.tags.map(tag => <span class="Tag">#{tag}</span>);
+  let tags = item.tags.map((tag, index) => (
+    <span key={index} class="Tag">
+      #{tag}
+    </span>
+  ));
 
   return (
     <CommonCard>
@@ -23,20 +27,22 @@ const Project = props => {
         </CardLink>
 
         <Box mt={4} mx={2} fontSize={1} color={"white"}>
-          {item.desc.map(list => (
-            <Text textAlign="justify" mt={2}>
+          {item.desc.map((list, index) => (
+            <Text key={index} textAlign="justify" mt={2}>
               {list}
             </Text>
           ))}
         </Box>
         <Text fontSize={1} my={4} color={"gray"} textAlign="center">
-          {makePairs(3, tags).map(Row => (
-            <Flex justifyContent="center">{Row}</Flex>
+          {makePairs(3, tags).map((Row, index) => (
+            <Flex key={index} justifyContent="center">
+              {Row}
+            </Flex>
           ))}
         </Text>
         <Flex justifyContent="center" />
-        {makePairs(3, references).map(Row => (
-          <Flex justifyContent="center" m={3}>
+        {makePairs(3, references).map((Row, index) => (
+          <Flex key={index} justifyContent="center" m={3}>
             {Row}
           </Flex>
         ))}

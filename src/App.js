@@ -11,6 +11,7 @@ import Navigation from "./Sections/Navigation";
 import Footer from "./Sections/Footer";
 import Projects from "./Sections/Projects";
 import HelmetHead from "./components/helmet";
+import { Section } from "./components/commons";
 
 class App extends Component {
   render() {
@@ -322,7 +323,7 @@ class App extends Component {
     return (
       <Theme>
         <Box className="App">
-          <HelmetHead crispId={"59674e9a-5024-498c-806c-ff38fc41243b"} />
+          <HelmetHead />
           <Particles>
             <Box className="Content">
               <header>
@@ -333,15 +334,17 @@ class App extends Component {
                 <Values />
                 <Blog />
                 <Projects projects={projects} />
-                <Text textAlign="center" my={[6, 6]}>
-                  <HeaderLink
-                    color="grey"
-                    href="https://drive.google.com/open?id=1d6SE-SDEFnVettyqsDDZ4uQfBqbgweN1"
-                    new
-                  >
-                    Download Resume
-                  </HeaderLink>
-                </Text>
+                <Section>
+                  <Text textAlign="center" my={3}>
+                    <HeaderLink
+                      color="grey"
+                      href="https://drive.google.com/open?id=1d6SE-SDEFnVettyqsDDZ4uQfBqbgweN1"
+                      new
+                    >
+                      Download Resume
+                    </HeaderLink>
+                  </Text>
+                </Section>
               </main>
               <footer>
                 <Footer />

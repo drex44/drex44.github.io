@@ -21,7 +21,6 @@ class MediumArticles extends React.Component {
         // Fillter the array to remove comments
         const res = data.items;
         const posts = res.filter(item => item.categories.length > 0);
-        console.log(posts);
         this.setState({ posts });
       });
   }
@@ -40,8 +39,10 @@ class MediumArticles extends React.Component {
           </Text>
         ) : null}
 
-        {makePairs(columns, articles).map(Row => (
-          <Flex m={3}>{Row}</Flex>
+        {makePairs(columns, articles).map((Row, index) => (
+          <Flex key={index} m={3}>
+            {Row}
+          </Flex>
         ))}
       </div>
     );

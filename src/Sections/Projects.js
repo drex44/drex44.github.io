@@ -21,8 +21,10 @@ const Projects = props => {
         </HeaderLink>
       </Text>
 
-      {makePairs(columns, projects).map(Row => (
-        <Flex m={3}>{Row}</Flex>
+      {makePairs(columns, projects).map((Row, index) => (
+        <Flex key={index} m={3}>
+          {Row}
+        </Flex>
       ))}
     </Section>
   );

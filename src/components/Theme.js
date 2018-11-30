@@ -24,7 +24,7 @@ const theme = {
 };
 
 export const itemsPerRow = width => {
-  return width < 450 ? 1 : 3;
+  return width < 800 ? (width < 450 ? 1 : 2) : 3;
 };
 
 const Theme = props => (
