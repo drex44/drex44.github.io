@@ -12,6 +12,7 @@ import Footer from "./Sections/Footer";
 import Projects from "./Sections/Projects";
 import HelmetHead from "./components/helmet";
 import { Section } from "./components/commons";
+import OpenSource from "./Sections/OpenSource";
 
 class App extends Component {
   render() {
@@ -334,8 +335,9 @@ class App extends Component {
                 <Values />
                 <Blog />
                 <Projects projects={projects} />
+                {/* <OpenSource /> */}
                 <Section>
-                  <Text textAlign="center" my={3}>
+                  <Text textAlign="center">
                     <HeaderLink
                       color="grey"
                       href="https://drive.google.com/open?id=1d6SE-SDEFnVettyqsDDZ4uQfBqbgweN1"
