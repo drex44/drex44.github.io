@@ -61,7 +61,7 @@ class App extends Component {
         link:
           "https://github.com/drex44/good-food-guide#good-food-guide-tadatadasmile",
         title: "Good Food Guide",
-        tags: ["ReactJS", "NextJS", "NodeJS"],
+        tags: ["ReactJS", "NextJS", "NodeJS", "Algolia"],
         desc: [
           <Text>
             A guide to know which foods are good when you have a certain
@@ -69,7 +69,7 @@ class App extends Component {
             total of 25{" "}
             <OutsideLink
               {...projectLink}
-              href="https://good-food-guide.netlify.com/contributors"
+              href="https://good-food-guide.now.sh/contributors"
             >
               contributors
             </OutsideLink>
@@ -78,10 +78,7 @@ class App extends Component {
           </Text>
         ],
         references: [
-          <OutsideLink
-            {...projectLink}
-            href="https://good-food-guide.netlify.com"
-          >
+          <OutsideLink {...projectLink} href="https://good-food-guide.now.sh">
             Live website
           </OutsideLink>,
           <OutsideLink
