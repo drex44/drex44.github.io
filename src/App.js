@@ -337,7 +337,7 @@ class App extends Component {
                   <Text textAlign="center">
                     <HeaderLink
                       color="grey"
-                      href="https://drive.google.com/open?id=1d6SE-SDEFnVettyqsDDZ4uQfBqbgweN1"
+                      href="https://drive.google.com/drive/folders/1ldbvoSf4HzXkK26_cH1DbbEG03PLaX6L?usp=sharing"
                       new
                     >
                       Download Resume
