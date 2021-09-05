@@ -12,7 +12,8 @@
     "react-window-size": "^1.2.2",
     "awesome-react-links": "^1.0.0",
     "react-particles-js": "^2.4.2",
-    "styled-components": "^4.1.1"
+    "styled-components": "^4.1.1",
+    "react-helpmet": "^6.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
